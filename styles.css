@@ -103,11 +103,12 @@ h4 {
 }
 
 #welcome {
-  padding: 20px;
+  padding: 20px 0;
 }
 
 .welcome-text {
   grid-column: 1/6;
+  padding: 20px;
 }
 
 .welcome-text h2 {
@@ -120,6 +121,7 @@ h4 {
 
 .welcome-img {
   grid-column: 6/9;
+  overflow: hidden;
 }
 
 .welcome-img img {
