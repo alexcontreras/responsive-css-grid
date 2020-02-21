@@ -88,7 +88,7 @@ h4 {
 }
 
 .site-nav {
-  margin: 0 20px;
+  margin: 20px;
 }
 
 .site-nav ul {
@@ -103,11 +103,15 @@ h4 {
 }
 
 #welcome {
-  padding: 0 20px 20px 20px;
+  padding: 20px;
 }
 
 .welcome-text {
   grid-column: 1/6;
+}
+
+.welcome-text h2 {
+  margin-bottom: 20px;
 }
 
 .welcome-text a {
@@ -233,6 +237,48 @@ footer img {
 }
 /* small tablet styles */
 @media screen and (min-width: 620px) {
+  .welcome-text {
+    grid-column: 1/5;
+  }
+
+  .welcome-img {
+    grid-column: 5/9;
+  }
+
+  .welcome-img img {
+    width: 100%;
+  }
+
+  .projects {
+    margin-top: 40px;
+  }
+
+  .projects a {
+    grid-column: span 4;
+    display: block;
+    margin: 20px 0;
+  }
+
+  .projects a:last-child {
+    grid-column: 3/7;
+  }
+
+  .projects a * {
+    margin: 10px 20%;
+    max-width: 60%;
+  }
+
+  .projects h4 {
+    text-align: center;
+  }
+
+  #skills {
+    padding: 30px 100px;
+  }
+
+  footer {
+    background-size: 20%;
+  }
 }
 
 /* large tablet & laptop styles */
